@@ -86,7 +86,7 @@ The [Flare visualization toolkit](https://flare.prefuse.org) package hierarchy.`
       value: (function(require){return(
        
           //데이터set 위치를 설정하여 설정된 위치에서 데이터 set을 불러와줌
-require("./topicPaper/index.js") // 같은 위치에 있는 flare파일 속 index.js파일의 데이터를 불러온다는 의미
+require("./topicPaper/index.csv") // 같은 위치에 있는 flare파일 속 index.js파일의 데이터를 불러온다는 의미
 )})
     },
     {
