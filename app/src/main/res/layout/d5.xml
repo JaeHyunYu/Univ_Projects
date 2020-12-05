@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/ScrollView1"
+
+    android:layout_width="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="#000"
+        android:fontFamily="@font/ga"
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="\nVisa Application Form"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/imageView215"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        android:src="@drawable/line_doc" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="586dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/d5_1" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="612dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/d5_2" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="608dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/d5_3" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="634dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/d5_4" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="637dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/d5_5" />
+
+    <ImageView
+        android:id="@+id/imageView216"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        android:src="@drawable/line" />
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000"
+        android:fontFamily="@font/ajn"
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="-an integrated application that must be order to apply for a visa \n\n-Documents to certify that you are an exchange student  \n\n-Obtain and fill out a form on the Internet(Visa application form #34)  \n\n-Visa issuance fee: 60$~90$  \n\n-registration fee : about 30000won  \n\nLink:https://www.visa.go.kr/downfile/VisaapplicatioinForm_EN.pdf" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EXHP</string>
+    <string name="fa_money">&#xf0d6;</string>
+    <string name="fa_address_card">&#xf2bb;</string>
+    <string name="fa_check">&#xf00c;</string>
+    <string name="fa_cap">&#xf19d;</string>
+    <string name="fa_visa">&#xf1f0;</string>
+    <string name="fa_industry">&#xf275;</string>
+    <string name="fa_envelope">&#xf0e0;</string>
+    <string name="fa_user">&#xf0c0;</string>
+    <string name="fa_list">&#xf022;</string>
+    <string name="fa_key">&#xf084;</string>
+    <string name="fa_bookmark">&#xf02e;</string>
+    <string name="fa_picture">&#xf03e;</string>
+</resources>
