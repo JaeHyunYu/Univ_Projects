@@ -1,0 +1,14 @@
+<?php
+	include "./database.php";
+
+	error_reporting(E_ALL);
+	ini_set("display_errors",1);
+
+	session_start();
+	$id=$username;
+
+	$file = fopen("./user_survey/".$id.".txt","w+");
+	fwrite($file,"5");
+	fclose($file);
+
+?>
