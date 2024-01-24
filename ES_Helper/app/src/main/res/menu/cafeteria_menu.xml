@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/menu1"
+            android:title="Where is school Cafeteria?" />
+        <item
+            android:id="@+id/menu2"
+            android:title="Where is cafeteria?" />
+        <item
+            android:id="@+id/menu3"
+            android:title="Where is coffee shop?" />
+        <item
+            android:id="@+id/menu4"
+            android:title="Where is convenience store?" />
+</menu>

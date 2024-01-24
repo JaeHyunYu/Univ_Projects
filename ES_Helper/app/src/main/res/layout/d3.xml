@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/ScrollView1"
+
+    android:layout_width="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#000"
+            android:fontFamily="@font/ga"
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="\nDocuments proving that you are an exchange student "
+            android:textSize="25dp"/>
+        <ImageView
+            android:id="@+id/imageView211"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:src="@drawable/line_doc" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="467dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/d3" />
+        <ImageView
+            android:id="@+id/imageView212"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#000"
+            android:fontFamily="@font/ajn"
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="\n\n-official letter from the inviting university, student exchange agreement between universities\n\n-Documents to certify that you are an exchange student  \n\n-Obtain and fill out a form on the Internet(Visa application form #34)  \n\n-Visa issuance fee: 60$~90$  \n\n-registration fee : about 30,000won  \n\nLink:https://www.visa.go.kr/downfile/VisaapplicatioinForm_EN.pdf" />
+    </LinearLayout>
+</ScrollView>

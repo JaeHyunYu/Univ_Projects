@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/ga"
+            android:gravity="center"
+            android:text="\nProof of financial capacity"
+            android:textColor="#000000"
+            android:textSize="28dp" />
+
+        <fragment
+            android:id="@+id/map_d1"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageView208"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:src="@drawable/line_doc" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="522dp"
+            android:layout_weight="1"
+            android:src="@drawable/d1" />
+
+        <ImageView
+            android:id="@+id/imageView207"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:textColor="#000000"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/textView5"
+            android:fontFamily="@font/ajn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text=" \n-Documents proving that they are capable of taking charge of expenses and living expenses during the semester.  \n\n-When submitting a document, you need proof of bank balance in English.  \n\n-Costs: 500 won" />
+
+    </LinearLayout>
+</ScrollView>

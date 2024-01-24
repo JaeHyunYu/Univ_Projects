@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/ScrollView1"
+
+    android:layout_width="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/textView18"
+            android:fontFamily="@font/ga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="One Standard size photo graph "
+            android:textSize="25dp"/>
+        <ImageView
+            android:id="@+id/imageView240"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:src="@drawable/line_doc" />
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/d12" />
+
+        <ImageView
+            android:id="@+id/imageView241"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/textView54"
+            android:fontFamily="@font/ajn"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="\n-A photograph that fits the size of a passport  size : 3.5cm X 4.5cm" />
+    </LinearLayout>
+</ScrollView>
